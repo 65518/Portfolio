@@ -35,9 +35,10 @@
         <!-- Home Section -->
         <section class="home bd_grid" data-aos="zoom-in" id="home">
             <div class="home_data">
-                <h1 class="home_title">Hi,<br> I'm <span class="home_title_color" data-aos="zoom-in"
-                    data-aos-delay="100">Vimal John</span>
-                    <br>Web Designer</h1>
+                <h1 class="home_title">Hi,<br> I'm <span 
+                    class="home_title_color" data-aos="zoom-in"
+                    data-aos-delay="100">Vimal John</span> , 
+                    <br> a <span class="element"></span></h1>
                     <a href="#contact" class="button" data-aos="zoom-in"
                     data-aos-delay="100">Contact</a>
             </div>
@@ -201,6 +202,23 @@
       </script>
 
       <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+      <!-- For Typing Animations-->
+      
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      
+      <!-- Configuration for Typing Animation -->
+      
+      <script> 
+        var typed = new Typed(".element",{
+        strings : ["Programmer.","Java Developer.","Web Designer."],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop:true
+            });
+
+    </script>
+
 </body>
 </html>
 <!-- END OF HTML -->
