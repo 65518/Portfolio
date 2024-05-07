@@ -99,7 +99,7 @@ img{
     top:0;
     left:0;
     z-index: 1000;
-    background: rgb(156, 184, 245);
+    background: white;
     box-shadow: 0 1px 4px rgba(136, 4, 212, 0.788);
 }
 
@@ -122,11 +122,12 @@ img{
         width: 80%;
         height: 100%;
         padding: 2rem;
-        background-color: var(--second-color);
+        background-color: var(--first-color);
         transition: 0.5s;
         border-radius: 1.8%;
-         
+        
     }
+    
 }
 
 /* day 2 Over */
@@ -139,18 +140,17 @@ img{
 
 .nav_link{
     position: relative;
-    color:#ffffff;
+    color:var(--second-color);
 }
 
 /* Hovering Effects of Glow in Nav lists */
 
 .nav_link:hover{
+    color: #8e0af3;
     text-shadow: 0 0 10px #5001fb, 0 0 20px #5001fb, 0 0 30px rgb(174, 0, 255);
     transition:0.5s;
 }
-.nav_link:active{
-    color: #5001fb;
-}
+
 
 /* Break */
 
@@ -205,6 +205,10 @@ img{
 
 .home_title_color{
     color: var(--first-color);
+}
+
+.element{
+    color:#b310db;
 }
 
 .home_social{
@@ -545,7 +549,7 @@ img{
         margin-right: auto;
     }
     .home_image{
-        right: 10%;
+        right: 3%;
     }
     .project1 img{
         margin-left: 23rem;
