@@ -31,8 +31,8 @@ To run this project locally, follow these steps:
    cd your-repo-name
    open index.html
 
-Project Structure
-your-repo-name/
+## Project Structure
+   Portfolio/
 │
 ├── index.html           # Main landing page
 ├── css/
@@ -43,6 +43,6 @@ your-repo-name/
 │   └── ...              # Images and media files
 └── README.md            # This README file
 
-Contributing
+## Contributing
 
 I welcome contributions to improve my portfolio. If you have suggestions for enhancements, feel free to open an issue or submit a pull request.
