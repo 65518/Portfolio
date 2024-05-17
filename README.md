@@ -31,17 +31,6 @@ To run this project locally, follow these steps:
    cd your-repo-name
    open index.html
 
-## Project Structure
-   Portfolio/
-│
-├── index.html           # Main landing page
-├── css/
-│   └── portfolio.css       # Custom styles
-├── js/
-│   └── portfolio.js       # Custom scripts
-├── images/
-│   └── ...              # Images and media files
-└── README.md            # This README file
 
 ## Contributing
 
